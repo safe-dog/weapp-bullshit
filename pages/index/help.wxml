@@ -1,0 +1,23 @@
+<view class="container">
+	<text class="title">这是什么了不起的神器？</text>
+	<text class="content">你好！这个有点用，又有点没用，采用人工智能大数据AI无关技术的小程序，能够让你一键生成各种复杂、凑数、交稿的论文、作业！</text>
+	<text class="content">本小程序采用开源的狗屁文章生成器，感谢作者的生成输出（付出）！项目地址：https://github.com/menzi11/BullshitGenerator</text>
+	<text class="title">哈哈哈，很无聊又好玩啊！</text>
+	<text class="content">我也这样觉得的，靓仔！</text>
+	<text class="content">如果能够打发你无聊的一点时间，那么欢迎你点击下方转发按钮，让你的朋友也一起开心开心啦！</text>
+
+	<text class="title">作者的其他好玩小程序</text>
+	<text class="content">作者微信：Hack_Fish。 专注微信小程序开发！</text>
+
+	<view class="apps">
+		<view hover-class="hover-class" bindtap="openApp">
+			<image src="https://qsy.xiaoshenma.cn/attachment/images/2/2019/11/S8gYG5Si5g5yZ44TzZ5pJTGu58pISo.png"></image>
+			<text>皮皮大神</text>
+		</view>
+	</view>	
+
+	<view class="share">
+		<button open-type="share">转发给朋友 >></button>
+	</view>
+</view>
+

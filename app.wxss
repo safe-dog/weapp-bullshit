@@ -1,0 +1,13 @@
+.hover-class {
+	opacity: 0.6;
+}
+.s1o {
+	position: fixed;
+	left: -50px;
+	bottom: -50px;
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+	font-size: 1px;
+	color: #FFFFFF;
+}

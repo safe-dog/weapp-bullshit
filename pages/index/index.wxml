@@ -1,0 +1,39 @@
+<view class="container">
+	<!-- 头像 -->
+	<view class="avatar-box">
+		<view class="avatar">
+			<image src="{{logo}}"></image>
+		</view>
+	</view>
+	<!-- 输入框 -->
+	<view class="form">
+		<input placeholder="请输入文章主题关键字.." auto-focus value="{{input}}" bindinput="startInput"></input>
+		<view bindtap="startGen" hover-class="hover-class">
+			<text>一 键</text>
+			<text>生 成</text>
+		</view>
+	</view>
+
+	<navigator url="help" class="help">
+		<text>这是什么？使用说明书 >></text>
+	</navigator>
+	<!-- 广告 -->
+	<view class="ad" wx:if="{{ad01}}">
+		<ad unit-id="{{ad01}}"></ad>
+	</view>
+	<!-- 文本 -->
+	<view class="body" wx:if="{{result}}">
+		<text>{{result}}</text>
+
+		<!-- 复制 -->
+		<view class="copy" hover-class="hover-class" bindtap="copyHandler">
+			<view>
+				<text>一 键 复 制</text>
+			</view>
+		</view>
+	</view>
+
+	<!-- 转发按钮 -->
+	<button open-type="share" class="share">转发</button>
+</view>
+

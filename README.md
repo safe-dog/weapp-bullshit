@@ -25,6 +25,11 @@ https://github.com/safe-dog/php-bullshit)
 
 ![](https://qsy.xiaoshenma.cn/attachment/images/5/2019/11/gi27nK2wkA2nWiUampJAn7u1AINaKk.jpg)
 
+# 在线预览
+微信小程序里搜索【作业论文神器】，或者扫一扫下方小程序码：
+
+![](./weapp.jpg)
+
 # 联系我们
 
 小程序代码完全开源，如果你有兴趣一起完善呀哈哈哈！
